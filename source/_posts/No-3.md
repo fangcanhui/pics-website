@@ -4,7 +4,7 @@ date: 2020-12-20 22:28:18
 categories:
   - 室内
 cover: 3.jpg
-sticky: 8
+sticky: 980
 ---
 {% gallery %}
 

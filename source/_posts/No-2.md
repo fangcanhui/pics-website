@@ -5,7 +5,7 @@ tags:
 categories:
   - 室内
 cover: 2.jpg
-sticky: 9
+sticky: 990
 ---
 {% gallery %}
 
