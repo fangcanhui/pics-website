@@ -13,7 +13,9 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://pics.fangcanhui.ml
+# url: http://pics.fangcanhui.ml
+# url: http://canhui-f.gitee.io
+url: http://huangxing.fangcanhui.ml
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,7 +100,11 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository:
+    github: https://github.com/fangcanhui/pics-website.git,pages
+    # coding: https://e.coding.net/huangxing-design/pics-website.git,master
+    # gitee: https://gitee.com/canhui-f/canhui-f.git,master
 
 search:
   path: search.xml
