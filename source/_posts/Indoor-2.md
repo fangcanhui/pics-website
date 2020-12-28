@@ -6,7 +6,8 @@ tags:
 categories:
   - 室内
 cover: 001.jpg
-sticky: 790
+# sticky: 790
+hide: true
 ---
 
 {% gallery %}

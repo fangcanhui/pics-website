@@ -34,8 +34,9 @@ header#page-header(class=isHomeClass style=bg_img)
     if is_post()
       include ./post-info.pug
     else if is_home() 
+      img(src=url_for('img/title.png'))
       #site-info
-        h1#site-title=site_title
+        //- h1#site-title=site_title
         #site-subtitle
           span#subtitle
         if(theme.social)

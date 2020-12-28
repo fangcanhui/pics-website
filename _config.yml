@@ -103,8 +103,8 @@ deploy:
   type: git
   repository:
     github: https://github.com/fangcanhui/pics-website.git,pages
-    # coding: https://e.coding.net/huangxing-design/pics-website.git,master
-    # gitee: https://gitee.com/canhui-f/canhui-f.git,master
+    # coding: https://e.coding.net/huangxing-design/pics-website.git,pages
+    # gitee: https://gitee.com/canhui-f/canhui-f.git,pages
 
 search:
   path: search.xml
